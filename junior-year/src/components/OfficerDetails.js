@@ -24,7 +24,7 @@ const OfficerDetails = ({ officer }) => {
                         <td>{officer.email}</td>
                     </tr>
                     <tr>
-                        <td><b>Phone:</b></td>
+                        <td> <b>{officer.phone && 'Phone:'}</b></td>
                         <td>{officer.phone}</td>
                     </tr>
                     <tr>
@@ -33,9 +33,6 @@ const OfficerDetails = ({ officer }) => {
                     </tr>
                 </tbody>
             </table>
-            {/* <p>
-                {showBio && officer.bio}
-            </p> */}
         </div>
     );
 };

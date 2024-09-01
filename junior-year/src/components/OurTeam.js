@@ -36,10 +36,9 @@ const OurTeam = () => {
         },
         {
             name: 'Dyan Morgan',
-            position: 'Advisor',
+            position: 'Faculty Advisor',
             email: 'dyan.morgan@ku.edu',
-            phone: 7894561230,
-            bio: 'Dyan is a faculty advisor for the Beacon of Hope Foundation. She is passionate about helping students get involved in the community. In her free time, Dyan enjoys hiking and painting.',
+            bio: 'Dyan is an Associate Teaching Professor at KU and faculty advisor for the Beacon of Hope Foundation. She is passionate about helping students get involved in the community. In her free time, Dyan enjoys hiking and painting.',
             photo: image3,
             id: 4
         }
