@@ -1,0 +1,54 @@
+.officer-details {
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    max-width: 25%;
+    margin: 3%;
+    padding: 20px 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.officer-details:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.officer-details-focus {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 35%;
+    height: fit-content;
+    margin: 3%;
+    padding: 20px 40px;
+    transition: all 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.officer-details-focus img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.officer-details-focus h2 {
+    text-align: center;
+}
+
+.officer-details-focus td {
+    display: flex;
+    align-items: first baseline;
+    padding: 5px;
+}
+.officer-details img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.officer-details h2 {
+    text-align: center;
+}
+
+.officer-details td {
+    padding: 5px;
+}

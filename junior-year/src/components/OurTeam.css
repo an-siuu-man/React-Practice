@@ -1,0 +1,9 @@
+.our-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    margin: 0 10%;
+    transition: all 0.3s;
+}

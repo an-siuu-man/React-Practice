@@ -1,0 +1,18 @@
+.new-button {
+    text-decoration: none;
+    border-radius: 0;
+    margin: 10px;
+    border: 1px solid transparent;
+    background-color: #404baf;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Poppins'; 
+    font-size: larger;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.new-button:hover {
+    background-color: #282f6b;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
+}

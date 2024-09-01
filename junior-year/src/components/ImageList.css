@@ -1,0 +1,19 @@
+.carousel-container {
+    width: 300vw;
+    height: 40%;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    transition: all 1s ease-in-out;
+    margin-bottom: 2%;
+}
+
+.carousel-image {
+    margin: none;
+    border: none;
+    height: 600px;
+    width: 100vw;
+    object-fit:cover;
+}

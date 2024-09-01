@@ -1,0 +1,58 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7188b4;
+    margin-bottom: 2%;
+    padding: 10px;
+    color: white;
+    font-family: 'Inter';
+    border-bottom: 1px solid gray;
+    padding:10px 10% ;
+  }
+
+  .navbar-brand {
+    font-family: 'Poppins';
+    font-weight: 500;
+    display: flex;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5em;
+    pointer-events: none;
+  }
+  
+.navbar-brand h1 {
+  margin: auto;
+}
+
+  .navbar-brand img {
+    border-radius: 50%;
+  }
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+
+  img {
+    margin-right: 5px;
+  }
+  .nav-item a:hover {
+    color: #333333;
+    border-bottom-color: #333333;
+  }
+  
