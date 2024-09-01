@@ -1,4 +1,4 @@
-/* src/components/Navbar.css */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,11 @@
   color: white;
   font-family: 'Inter';
   border-bottom: 1px solid gray;
-  padding:10px 10% ;
+  padding:10px 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .navbar-brand {

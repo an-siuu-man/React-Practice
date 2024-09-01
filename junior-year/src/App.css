@@ -7,7 +7,7 @@
   overflow: hidden;
   color: #333333;
   background:url('./components/ku-img.jpg');
-  background-position: 0% -20%;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;

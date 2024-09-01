@@ -2,7 +2,7 @@ import './Home.css';
 import { useState } from 'react';
 import linkicon from './link.png';
 import NewButton from './newButton';
-
+import Section from './Section';
 const Home = () => {
 
     const [content, setContent] = useState(`At the Beacon of Hope Foundation, we're dedicated to making a difference in healthcare, and we need your help to make it happen!
@@ -30,24 +30,28 @@ const Home = () => {
 
     return (
         <div className='home'>
+            <div className='sections'>
+                <Section title='Welcome to the Beacon of Hope Foundation!' content='We are a student organization at the University of Kansas dedicated to making a difference in healthcare.'/>
+                <Section title='Upcoming Events' content='Stay tuned for upcoming events!'/>
+            </div>
             <div className={`about-us`}>
-                <h2 className="title">
+                <p className="description">
+                <h1 className='about-us-title'>More About Us</h1>
+                {content}
+                    <button onClick={handleReadMore} className="read-more">{readMore ? 'Read Less' : 'Read More'}</button>
+                </p>
+            </div>
+            <div className='button-container'>
+                <NewButton text='JOIN US' link='/join'/>
+                <NewButton text='SIGN UP FOR OUR NEWSLETTER' link='/newsletterform'/>
+            </div>
+            <h2 className="rcc-link">
                     Also find us on: 
                     <a href='https://rockchalkcentral.ku.edu/organization/beaconofhopefoundation' target='_blank' rel='noopener noreferrer'>
                         Rock Chalk Central
                         <img height='24' width='24'className="link-icon" src={linkicon} alt="external-link"/>
                     </a>
-                </h2>
-                <p className="description">
-                {content}
-                    <button onClick={handleReadMore} className="read-more">{readMore ? 'Read Less' : 'Read More'}</button>
-                </p>
-            </div>
-            
-            <div className='button-container'>
-                <NewButton text='JOIN US' link='/join'/>
-                <NewButton text='SIGN UP FOR OUR NEWSLETTER' link='/newsletterform'/>
-            </div>
+            </h2>
         </div>
     );
 }
