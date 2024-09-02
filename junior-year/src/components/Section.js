@@ -8,9 +8,9 @@ const Section = (props) => {
                 <p className="section-content">
                     {props.content}
                 </p>
-                <div className="section-image">
+                {props.image && <div className="section-image">
                     <img src={props.image} alt={props.title} height='200px' width='200px'/>
-                </div>
+                </div>}
             </div>
         </div>
     );
