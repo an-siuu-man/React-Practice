@@ -1,21 +1,31 @@
 .section {
-    display: flex;
-    min-height: 20%;
+    display: block;
+    max-height: 20%;
+    min-width: 400px;
+    max-width: 600px;
     margin-right: 20px;
     padding: 10px 20px;
     background-color: rgba(255,255,255,0.6);
     backdrop-filter: blur(10px);
     border-radius: 10px;
+    cursor: default;
+    transition:all 0.3s;
+}
+
+.section:hover {
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
 }
 
 .section-info {
-    max-width: 80%;
+    display: flex;
 }
 
 .section-header {
+    text-align: left;
     margin: 0;
-    font-family: 'Inter';
-    font-size: 45px;
+    font-family: 'Poppins';
+    font-size: 40px;
 }
 
 .section-content {
@@ -26,6 +36,7 @@
 }
 
 .section-image {
+    display: flex;
     margin: 0 20px;
 }
 

@@ -35,10 +35,10 @@ const OurTeam = () => {
             id: 3
         },
         {
-            name: 'Dyan Morgan',
+            name: 'Dr. Dyan Morgan',
             position: 'Faculty Advisor',
             email: 'dyan.morgan@ku.edu',
-            bio: 'Dyan is an Associate Teaching Professor at KU and faculty advisor for the Beacon of Hope Foundation. She is passionate about helping students get involved in the community. In her free time, Dyan enjoys hiking and painting.',
+            bio: 'Dr. Morgan is an Associate Teaching Professor at KU and faculty advisor for the Beacon of Hope Foundation. She is passionate about helping students get involved in the community. In her free time, Dyan enjoys hiking and painting.',
             photo: image3,
             id: 4
         }
