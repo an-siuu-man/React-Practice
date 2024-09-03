@@ -44,11 +44,14 @@ const OurTeam = () => {
         }
     ];
     return (
-        <div className='our-team'>
-            {officers.map((officer) =>
-            (
-                <OfficerDetails officer={officer} key={officer.id}/>
-                ))}
+        <div className='our-team-container'>
+            <h1 className='our-team-title'>Meet our team!</h1>
+            <div className='our-team'>            
+                {officers.map((officer) =>
+                (
+                    <OfficerDetails officer={officer} key={officer.id}/>
+                    ))}
+            </div>
         </div>
     );
 }
