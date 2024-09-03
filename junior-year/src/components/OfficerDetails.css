@@ -8,11 +8,15 @@
     transition: all 0.3s;
     cursor: pointer;
 }
-.officer-details td {
+
+
+.officer-details-focus td {
     display: flex;
     align-items: first baseline;
-    padding: 5px;
+    /* padding: 5px; */
 }
+
+
 .officer-details:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -39,11 +43,7 @@
     text-align: center;
 }
 
-.officer-details-focus td {
-    display: flex;
-    align-items: first baseline;
-    padding: 5px;
-}
+
 .officer-details img {
     display: block;
     margin: 0 auto;
