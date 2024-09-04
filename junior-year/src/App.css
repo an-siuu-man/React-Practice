@@ -5,8 +5,8 @@
   width: 100%;
   height: 100vh;
   color: #333333;
-  background:url('./components/ku-img.jpg');
-  background-position: top;
+  background:url('./components/ku-bg-image.png');
+  background-position: 0 50%;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: scroll;
