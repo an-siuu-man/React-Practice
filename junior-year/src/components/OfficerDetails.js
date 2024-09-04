@@ -21,7 +21,7 @@ const OfficerDetails = ({ officer }) => {
                     </tr>
                     <tr>
                         <td><b>Email:</b></td>
-                        <td>{officer.email}</td>
+                        <td><a href={`mailto:${officer.email}`}>{officer.email}</a></td>
                     </tr>
                     <tr>
                         <td> <b>{officer.phone && 'Phone:'}</b></td>
